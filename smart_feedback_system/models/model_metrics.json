@@ -1,0 +1,98 @@
+{
+  "dataset_total": 564,
+  "sentiment_task": {
+    "best_model": "Linear SVM (Calibrated)",
+    "models": {
+      "Logistic Regression": {
+        "accuracy": 0.8938,
+        "f1_macro": 0.8803,
+        "f1_weighted": 0.8929,
+        "precision": 0.8937,
+        "recall": 0.8938,
+        "training_time_sec": 0.0469,
+        "latency_ms_per_sample": 0.0
+      },
+      "Linear SVM (Calibrated)": {
+        "accuracy": 0.9027,
+        "f1_macro": 0.8877,
+        "f1_weighted": 0.9021,
+        "precision": 0.903,
+        "recall": 0.9027,
+        "training_time_sec": 0.0398,
+        "latency_ms_per_sample": 0.13
+      },
+      "Multinomial Naive Bayes": {
+        "accuracy": 0.9027,
+        "f1_macro": 0.8826,
+        "f1_weighted": 0.9002,
+        "precision": 0.9086,
+        "recall": 0.9027,
+        "training_time_sec": 0.0,
+        "latency_ms_per_sample": 0.0
+      },
+      "Random Forest": {
+        "accuracy": 0.8673,
+        "f1_macro": 0.8541,
+        "f1_weighted": 0.8616,
+        "precision": 0.8834,
+        "recall": 0.8673,
+        "training_time_sec": 0.1378,
+        "latency_ms_per_sample": 0.0
+      }
+    },
+    "classes": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ]
+  },
+  "category_task": {
+    "best_model": "Logistic Regression",
+    "models": {
+      "Logistic Regression": {
+        "accuracy": 0.9381,
+        "f1_macro": 0.9451,
+        "f1_weighted": 0.9389,
+        "precision": 0.9438,
+        "recall": 0.9381,
+        "training_time_sec": 0.0617,
+        "latency_ms_per_sample": 0.0
+      },
+      "Linear SVM (Calibrated)": {
+        "accuracy": 0.9381,
+        "f1_macro": 0.9451,
+        "f1_weighted": 0.9389,
+        "precision": 0.9438,
+        "recall": 0.9381,
+        "training_time_sec": 0.0674,
+        "latency_ms_per_sample": 0.0
+      },
+      "Multinomial Naive Bayes": {
+        "accuracy": 0.9027,
+        "f1_macro": 0.9143,
+        "f1_weighted": 0.9044,
+        "precision": 0.9112,
+        "recall": 0.9027,
+        "training_time_sec": 0.0,
+        "latency_ms_per_sample": 0.0
+      },
+      "Random Forest": {
+        "accuracy": 0.9292,
+        "f1_macro": 0.9364,
+        "f1_weighted": 0.9295,
+        "precision": 0.9323,
+        "recall": 0.9292,
+        "training_time_sec": 0.163,
+        "latency_ms_per_sample": 0.053
+      }
+    },
+    "classes": [
+      "Administration",
+      "Course",
+      "Examination",
+      "Faculty",
+      "Infrastructure",
+      "Technical"
+    ]
+  }
+}
